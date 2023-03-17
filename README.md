@@ -1,3 +1,3 @@
 # DIO-Desafio-github-primeiro-repositorio
-#### Primeiro repositório feito para o desafio de projeto da DIO.
+#### Repositório feito para o desafio de projeto da DIO.
 ###### Bootcamp de Java oferecido pelo Banco Pan em março de 2023.
