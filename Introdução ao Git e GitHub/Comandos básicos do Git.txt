@@ -1,0 +1,89 @@
+# "INICIANDO O GIT"
+
+
+### Criar um novo repositório local na pasta:
+#### git init
+
+### Colocar o nome de usuário: 
+#### git config --global user.name "nome de usuário"
+
+### Colocar email:
+#### git config --global user.email seuemail@email.com
+
+### Exibir o que tem na configuração:
+#### git config --list
+
+### Ver o estado dos arquivos:
+#### git status
+
+
+
+
+
+# "PARA ADICIONAR ARQUIVOS NA ÁREA DE STAGE"
+
+
+### Adicionar um arquivo em específico:
+#### git add meu_arquivo.txt
+
+### Adicionar um diretório em específico:
+#### git add meu_diretorio
+
+### Adicionar todos os arquivos/diretórios:
+#### git add .
+
+### Adicionar um arquivo para ser ignorado pelo .gitignore (geral ou do repositório:
+#### git add -f arquivo_no_gitignore.txt
+
+
+
+
+
+# "PARA COMMITAR ARQUIVOS"
+
+
+### Comitar um arquivo:
+#### git commit meu_arquivo.txt
+
+### Comitar vários arquivos:
+#### git commit meu_arquivo.txt meu_outro_arquivo.txt
+
+### Comitar colocando uma mensagem:
+#### git commit meuarquivo.txt -m "minha mensagem de commit"
+
+
+
+
+# "PARA REMOVER ARQUIVOS"
+
+
+### Remover arquivo:
+#### git rm meu_arquivo.txt
+
+### Remover diretório:
+#### git rm -r diretorio
+
+
+
+
+
+# Exibir os repositórios remotos:
+#### git remote
+
+#### git remote -v
+
+### Vincular repositório local com um repositório remoto:(copiar o link do repositorio remoto)
+#### git remote add origin https://github.com/PaMis2/DIO-Desafio-github-primeiro-repositorio.git
+
+
+
+
+
+# "Enviar arquivos/diretórios para o repositório remoto"
+
+### O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+
+#### git push -u origin master
+### Os demais pushes não precisam dessa informação
+
+#### git push
